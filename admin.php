@@ -6,7 +6,7 @@ $result = $conn->query("SELECT * FROM orders ORDER BY id DESC");
 <html lang="az">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Panel - Rubik Shop</title>
+    <title>Admin Panel - PIRAN IceCream Shop</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; margin: 0; padding: 30px; }
         .admin-card { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); padding: 25px; max-width: 1100px; margin: auto; }
