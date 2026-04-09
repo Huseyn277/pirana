@@ -1,5 +1,5 @@
 PIRAN Dondurma Şirkəti
-Veb Tehlukesizlik Zeiflikler Reportu  
+Veb Tehlukesizlik Zeiflikler Reportu:
 Mövzu: SQL Injection zəifliyinin tədqiqi və həlli yolları  
 
 Müəllim: Həsənli Xatirə 
