@@ -45,6 +45,15 @@ Bu layihədə xüsusi olaraq aşağıdakı hissələrdə **SQL Injection** boşl
 * `database.sql` - Bazanın strukturu.
 
 ---
+Sistemi SQL injection hucumunnan qorumaq ucun bu kodu "check_login.php" faylina elave elemliyik.
 
+php
+```
+$sql = "SELECT * FROM users WHERE username = ? AND password = ?";
+$stmt = $conn->prepare($sql);
+$stmt->execute([$user, $pass]);
+$user = $stmt->fetch();
+```
 ## 💳 Qeyd
-Kart məlumatları bölməsi sadəcə demo xarakterlidir. Heç bir real ödəniş sistemi inteqrasiya olunmayıb və daxil edilən məlumatlar şifrələnməmiş şəkildə bazaya gedir (Tədris məqsədli).
+Kart məlumatları bölməsi sadəcə demo xarakterlidir. Heç bir real ödəniş sistemi inteqrasiya olunmayıb və daxil edilən məlumatlar şifrələnməmiş şəkildə bazaya gedir (Tədris məqsədli)
+
